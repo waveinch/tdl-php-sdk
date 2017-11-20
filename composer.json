@@ -1,0 +1,11 @@
+{
+    "name": "teamdatalog/php-sdk",
+    "description": "SDK to access TDL API",
+    "require": {
+        "php": "^5.4.0 || ^7.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {"TDL\\": "src/"}
+    }
+}
