@@ -1,7 +1,9 @@
 <?php
 
-require_once('model/Calendar.php');
-require_once('model/EventTypes.php');
+namespace TDL;
+
+use Model\Calendar;
+use Model\EventTypes;
 
 /**
  * Teamdatalog (TDL) access API
