@@ -50,7 +50,6 @@ class Teamdatalog {
 
 
     private function get($path) {
-        print("Requesting ".$path."\n");
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $this->endpoint.$path);
         curl_setopt($curl, CURLOPT_HTTPHEADER, array(
