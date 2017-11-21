@@ -45,7 +45,7 @@ class Teamdatalog {
     }
 
     public function get_events_from($date,$events_type_id,$calendars_id) {
-        return $this->get("/formData?end=2534783178272&formsId=".$events_type_id."&start=". $date->getTimestamp()."&teamId=".$calendars_id);
+        return $this->get("/formData?end=2534783178272&formsId=".$events_type_id."&start=". ($date->getTimestamp()*1000)."&teamId=".$calendars_id);
     }
 
 
