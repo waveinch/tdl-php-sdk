@@ -2,8 +2,8 @@
 
 namespace TDL;
 
-use Model\Calendar;
-use Model\EventTypes;
+use TDL\Model\Calendar;
+use TDL\Model\EventTypes;
 
 /**
  * Teamdatalog (TDL) access API
